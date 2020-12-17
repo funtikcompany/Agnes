@@ -1,0 +1,42 @@
+.header__intro{
+	display: flex;
+	padding: 110px 0px;
+	
+
+}
+
+
+.header__content{
+	padding-right: -10px;
+
+	width: 50%;
+	margin-right: 10px;;
+}
+.header__title{
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 72px;
+	color:#000000;
+	margin-bottom: 30px;
+	font-weight: 800;
+}
+.header__text{
+	line-height: 28px ;
+	margin-bottom: 60px;
+} 
+
+
+.header__video{
+	margin-left: 10px;
+	padding-left: -10px;
+	width: 50%;
+	text-align: center;
+}
+
+.video{
+	width: 100%;
+	max-width: 550px;
+	height:357px;
+	box-shadow: 5px 20px 30px rgba($color: #313030, $alpha: 0.9);
+	
+}

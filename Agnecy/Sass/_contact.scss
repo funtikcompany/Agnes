@@ -1,0 +1,148 @@
+.contact{
+	padding-bottom: 100px;
+	
+	
+}
+
+.contact__content{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+	
+	
+
+
+.contact__form{
+	width: 50%;
+
+	
+}
+.contact__box-input{
+	margin-bottom: 50px;
+	 display:flex;
+	 justify-content: space-between;
+	 
+}
+.contact__name{
+	padding:25px 10px 25px 20px;
+	background-color: #e5e5e5;
+	height: 70px;
+	color: #000;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	outline: 0;
+	display: inline-block;
+	overflow: hidden;
+	font-size: 16px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 240px;
+
+	
+}
+.contact__name:focus{
+	box-shadow: 2px 5px 10px black;
+
+
+}
+.contact__mail{
+	padding:25px 10px 25px 20px;
+	background-color: #e5e5e5;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	height: 70px;
+	border: none;
+	outline: 0;
+	overflow: hidden;
+	font-size: 16px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 240px;
+}
+.contact__mail:focus{
+	box-shadow: 2px 5px 10px black;
+}
+.contact__area{
+	width: 100%;
+	max-width: 740px;
+	min-height: 250px;
+	border-radius: 10px;
+	background-color: #e5e5e5;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;	
+	padding: 30px;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	resize: none;
+	margin-bottom: 30px;
+}
+.contact__area:focus{
+	box-shadow: 2px 5px 10px black;
+
+}
+
+
+.contact__btn{
+	display: block;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	background-color: #ff2d2d;
+	font-size: 18px;
+	line-height: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:#fff;
+	outline: none;
+	transition: all 0.1s linear;
+	
+}
+.contact__btn:hover{
+	box-shadow: 2px 5px 10px black;
+}
+.contant__right{
+	background-color: #2d2d2d;
+	margin-left: 20px;
+
+	
+	width: 50%;
+
+}
+
+.contant__info{
+	
+	top: 0;
+	left: 35%;
+	padding-top: 100px;
+	width: 100%;
+	max-width: 577px;
+	height: 100%;
+	max-height: 485px;
+	
+	padding-right: 275px;
+	
+	padding-left: 75px;
+	color:#d5d5d5;
+}
+.contact__text{
+	margin-bottom: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	
+}
+.contact__address{
+	margin-bottom: 30px;
+}
+.contact__email{
+	display: block;
+	margin-bottom: 30px;
+	color:#d5d5d5 ;
+}
+.contact__phone{
+	color:#d5d5d5 ;
+
+}
